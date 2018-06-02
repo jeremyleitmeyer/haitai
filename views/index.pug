@@ -1,0 +1,20 @@
+doctype html
+html(lang='en')
+	head
+		include includes/head
+	body
+		header
+			include includes/nav
+		div(class='container')
+			div(class='jumbotron text-center')
+				h1
+					span(class='fa fa-lock') A Node Blog with Pug(Jade)!
+				p Login or Register with:
+				div(class='btn-group')
+					a(href='/login' class='btn btn-success btn-outline-dark')
+						span(class='fa fa-user')  Local Login
+					a(href='/signup' class='btn btn-success btn-outline-dark')
+						space(class='fa fa-user')  Local Signup
+			div(class='row')
+				div(class='well col-lg-10 col-lg-offset-1')
+					h2 Welcome !
