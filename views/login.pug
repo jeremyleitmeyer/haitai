@@ -1,10 +1,10 @@
 doctype html
 html(lang='en')
     head
-        include includes/head
+        include partials/head
     body
         header
-            include includes/nav
+            include partials/nav
         div(class='container')
             div(class='well col-sm-6 col-sm-offset-3')
                 h1
@@ -12,7 +12,7 @@ html(lang='en')
                 if(messages)
                     p= messages
                 br
-                include includes/loginForm
+                include partials/loginForm
                 hr
                 p Need an account?
                     |
